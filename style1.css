@@ -1,0 +1,124 @@
+body {background-color:black;}
+
+                  /* this code is for header */
+
+                #header{border: 1px solid grey;
+                 background-color: grey;
+                  height: 90px;
+                  margin-top: -10px; 
+                  margin-left: 20%;
+                  margin-right: 20%;
+                  width:60%;} 
+                  h1{text-shadow: 2px 2px rgb(219, 202, 202);}
+                  
+
+                  /* this code is for main body with image background */
+
+                  #main_body{
+                            height: 580px;
+                            float: bottom;
+                            margin-top:-10px; 
+                            background-image: url("https://wallpaperaccess.com/full/1139946.jpg"); background-size: 100% 100%;
+                            opacity: 0.8;
+                        } 
+
+/* this code is for small boxes */
+
+                            #middle_small_box { width:60%; height:150px;
+                            
+                            margin-left:20%; margin-right:25%; margin-top:10px;
+                            } 
+                            
+                            .child 
+                            {width: 31%; height: 120px; float:left; margin-right:15px; margin-top:20px;
+                               border: 2px solid grey;
+                               }
+
+                               h3 {color:white; text-align: center;}
+
+                               .smallbox_p {color:white; font-size: small; text-align: left;}
+                               
+                               p {padding-left: 10px;}
+
+/* this code is for bottom 2 boxes and the footer - it has 3 inner divs that are in a big main_bottom_div*/
+
+                        #main_bottom_div {
+                            margin-top:30px;
+                            margin-left: 50px;
+                        }
+                             
+                            #inner-div-left {
+                               
+                                background-color:  white;
+                                margin-left: 25px;
+                                margin-top: 40px;
+                               height: 220px;
+                               width: 45%;
+                               float: left;
+                               border: 10px solid rgb(231, 228, 228);
+                            } 
+                            #inner-div-right {
+                               
+                               background-color:  white;
+                               float: left;
+                               margin-top: 40px;
+                               margin-right: 25px;
+                              height: 220px;
+                              width: 45%;
+                              border: 10px solid rgb(231, 228, 228);
+
+                           }   
+                             
+                               /* this is for menu bar */
+
+                               #title_text {float:left; margin-left: 20px;}
+                               #nav_bar {float:right;margin-right:60px; margin-top: 25px;}
+
+                               a{
+                                padding: 5px;}
+                            
+                            a:hover{
+                                background: white;
+                                    color: rgb(239, 164, 164);
+                                }     
+                            
+                /* this is for links in inner left div*/
+                                 
+                            li {
+                                margin-bottom: 5px;}
+
+                            li a:hover{
+                                    color: rgb(150, 230, 76);}
+
+                                    h2 {padding-left: 30px;text-decoration: underline;}    
+                                    #Unordered {width:50%;
+                                        float:left;}
+                                    #ordered {width:50%;float:right;}
+
+                            #inner-div-bottom {
+                               
+                            background-color:  black;
+                            margin-left: 25px;
+                              height: 100px;
+                              width: 91.43%;
+                              border: 10px solid rgb(231, 228, 228);
+                              float: left;
+                           }                  
+                         /* this code is for footer contact us */
+
+                            h4 {text-align: center; color: aliceblue;font-size:25px;text-decoration: underline;}
+
+                         .contact_images{position:absolute;right: 300px;bottom:20px;}
+
+                         img {margin-right: 20px;}
+                            h6 {text-align: right; 
+                              color: aliceblue; }
+                             h5 {text-align: right; 
+                             color: aliceblue;}
+                
+                          #copyright {
+                          position:absolute;right: 130px;bottom: 20px;
+                          }
+                          #symbol {
+                            position:absolute;right: 110px;bottom: 30px;}
+                             
